@@ -1,0 +1,64 @@
+
+.social_icon2 ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    align-items: center; /* Centraliza os ícones verticalmente */
+    height: 100vh; /* Altura total da tela */
+    flex-direction: column; /* Coloca os ícones em coluna */
+}
+
+.social_icon2 ul li {
+    margin-bottom: 20px; /* Espaçamento entre os ícones */
+}
+
+.social_icon2 ul li:first-child {
+    margin-top: 0;
+}
+
+.social_icon2 ul li a {
+    display: flex;
+    align-items: center; /* Alinha ícone e texto verticalmente */
+    justify-content: center; /* Centraliza texto horizontalmente */
+    text-decoration: none;
+    color: #fff; /* Cor do texto */
+    font-size: 20px; /* Tamanho do texto */
+    height: 60px; /* Altura do ícone */
+    width: 200px; /* Largura do ícone */
+    background-color: #2a66b3; /* Cor de fundo padrão */
+    border: 1px solid #2a66b3; /* Borda padrão */
+    border-radius: 6px; /* Arredondamento da borda */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.social_icon2 ul li a i {
+    font-size: 30px; /* Tamanho do ícone */
+    margin-right: 10px; /* Espaçamento entre ícone e texto */
+}
+
+.social_icon2 ul li a:hover {
+    background-color: #082b58; /* Cor de fundo ao passar o mouse */
+    border-color: #082b58; /* Cor da borda ao passar o mouse */
+}
+
+.linkedin {
+    background-color: #0077b5; /* Cor de fundo do LinkedIn */
+    border-color: #0077b5; /* Cor da borda do LinkedIn */
+}
+
+.instagram {
+    background-color: #e4405f; /* Cor de fundo do Instagram */
+    border-color: #e4405f; /* Cor da borda do Instagram */
+}
+
+.whatsapp {
+    background-color: #25d366; /* Cor de fundo do WhatsApp */
+    border-color: #25d366; /* Cor da borda do WhatsApp */
+}
+
+.social_icon2 ul li a:hover {
+    background-color: #082b58; /* Cor de fundo ao passar o mouse */
+    border-color: #082b58; /* Cor da borda ao passar o mouse */
+}

@@ -1,0 +1,144 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.service-13 {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff; /* Cor do texto branca para contraste */
+  font-weight: 300;
+  background-color: #000000; /* Fundo preto sólido */
+}
+
+.service-13 h1, .service-13 h2, .service-13 h3, .service-13 h4, .service-13 h5, .service-13 h6 {
+  color: #3e4555;
+}
+
+.service-13 .font-weight-medium {
+  font-weight: 500;
+}
+
+.service-13 .bg-light {
+  background-color: #f4f8fa !important;
+}
+
+.service-13 a {
+  text-decoration: none;
+}
+
+.service-13 .btn-success-gradiant {
+  background: #2c6ddd;
+  background: -webkit-linear-gradient(legacy-direction(to right), #2c52dd 0%, #1d86cc 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#2c52dd), to(#1d86cc));
+  background: -webkit-linear-gradient(left, #2c52dd 0%, #1d86cc 100%);
+  background: -o-linear-gradient(left, #2c52dd 0%, #1d86cc 100%);
+  background: linear-gradient(to right, #2c52dd 0%, #1d86cc 100%);
+}
+
+.service-13 .btn-success-gradiant:hover {
+  background: #2c6ddd;
+  background: -webkit-linear-gradient(legacy-direction(to right), #2c6ddd 0%, #1d86cc 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#2c6ddd), to(#1d86cc));
+  background: -webkit-linear-gradient(left, #2c6ddd 0%, #1d86cc 100%);
+  background: -o-linear-gradient(left, #2c6ddd 0%, #1d86cc 100%);
+  background: linear-gradient(to right, #2c6ddd 0%, #1d86cc 100%); 
+}
+
+.service-13 .linking {
+  color: #000000;
+}
+
+.service-13 .linking:hover {
+  color: #316ce8;
+}
+
+.service-13 .card.card-shadow {
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+}
+
+.service-13 .btn-md {
+  padding: 15px 45px;
+  font-size: 16px;
+}
+
+.service-13 .centered-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Garante que o botão ocupe toda a altura da div pai */
+}
+
+.service-13 .text-center {
+  display: flex;
+  justify-content: flex-start; /* Alinha o conteúdo à esquerda */
+  align-items: center;
+  height: 30%; /* Garante que o botão ocupe toda a altura da div pai */
+  padding-right: 10px; /* Espaçamento à direita para mover o botão para a esquerda */
+}
+
+.centered-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Opcional: centraliza horizontalmente */
+  height: 100%; /* Garante que a altura seja ocupada */
+}
+
+.text-custom {
+  color: #080808; /* Altere para a cor desejada */
+}
+
+/* Regras de mídia para responsividade */
+
+@media (max-width: 768px) {
+  .service-13 .btn-md {
+    padding: 12px 30px; /* Ajuste o padding dos botões */
+    font-size: 14px; /* Ajuste o tamanho da fonte dos botões */
+  }
+
+  .service-13 h6 {
+    font-size: 16px; /* Ajuste o tamanho da fonte dos títulos */
+  }
+
+  .service-13 .text-custom {
+    font-size: 14px; /* Ajuste o tamanho da fonte do texto */
+  }
+
+  .service-13 .product-description {
+    padding: 1rem; /* Ajuste o padding para colunas em telas menores */
+  }
+
+  .service-13 img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem a largura da coluna */
+    height: auto; /* Mantém a proporção da imagem */
+  }
+
+  .service-13 .centered-btn {
+    padding: 1rem; /* Ajuste o padding do botão centralizado */
+  }
+
+  .service-13 .text-center {
+    justify-content: center; /* Alinha o conteúdo centralizado em telas menores */
+    height: auto; /* Ajusta a altura para melhor visualização */
+    padding-right: 0; /* Remove o padding direito para dispositivos menores */
+  }
+
+  .service-13 .wrap-service13-box {
+    margin-bottom: 1rem; /* Ajuste o espaçamento entre os cartões */
+  }
+
+  .service-13 .card {
+    flex-direction: column; /* Empilha a imagem e o texto verticalmente */
+  }
+
+  .service-13 .card img {
+    width: 100%; /* Garante que a imagem ocupe toda a largura disponível */
+  }
+
+  .service-13 .card .product-description {
+    padding: 1rem; /* Ajuste o padding interno */
+  }
+}

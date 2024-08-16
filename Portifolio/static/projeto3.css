@@ -1,0 +1,122 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+
+/* Estilos Gerais */
+.service-14 {
+    font-family: "Montserrat", sans-serif;
+    color: #f2f5fb;
+    font-weight: 300;
+}
+
+/* Estilos de Títulos */
+.service-14 h1, 
+.service-14 h2, 
+.service-14 h3, 
+.service-14 h4, 
+.service-14 h5, 
+.service-14 h6 {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.service-14 h3 {
+    line-height: 36px;
+    font-size: 30px;
+}
+
+.service-14 h6 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+/* Container de Imagens */
+.service-14 .image-container {
+    text-align: center;
+}
+
+.service-14 .image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.service-14 .image-title {
+    margin-bottom: 0.5rem;
+    color: #ffffff; /* Cor personalizada */
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Espaçadores */
+.spacer {
+    height: 3rem;
+    width: 100%;
+}
+
+.spacer1 {
+    height: 1rem;
+    width: 100%;
+}
+
+/* Descrição do Projeto */
+.service-14 .project-overview {
+    font-size: 18px;
+    color: #ffffff; /* Cor personalizada */
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.service-14 .project-description {
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+/* Estilos Personalizados */
+.service-14 .project-overview {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.service-14 .image-title {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+/* Regras de Mídia para Responsividade */
+
+@media (max-width: 768px) {
+    .service-14 h3 {
+        font-size: 24px; /* Ajusta o tamanho da fonte dos títulos h3 */
+    }
+
+    .service-14 h6 {
+        font-size: 16px; /* Ajusta o tamanho da fonte dos títulos h6 */
+    }
+
+    .service-14 .project-overview {
+        font-size: 18px; /* Ajusta o tamanho da fonte da visão geral do projeto */
+    }
+
+    .service-14 .project-description {
+        font-size: 14px; /* Ajusta o tamanho da fonte da descrição do projeto */
+    }
+
+    .service-14 .image-title {
+        font-size: 16px; /* Ajusta o tamanho da fonte do título da imagem */
+    }
+
+    .spacer {
+        height: 2rem; /* Ajusta o espaçador para telas menores */
+    }
+
+    .spacer1 {
+        height: 0.5rem; /* Ajusta o espaçador menor para telas menores */
+    }
+
+    .service-14 .image-container img {
+        max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    }
+}

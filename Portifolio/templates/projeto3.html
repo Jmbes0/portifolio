@@ -1,0 +1,121 @@
+{% extends 'base.html' %}
+{% block head %}
+    <!-- Adiciona os links do Lightbox no bloco head -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+{% endblock %}
+{% block body %}
+<div class="py-5 service-14">
+    <div class="container">
+        <!-- Texto Descritivo do Projeto -->
+        <div class="mb-4">
+            <p class="project-overview">
+                O projeto foi desenvolvido para monitorar a pressão exercida pelos galhos de árvores. 
+                Esse monitoramento permite prever a perda de água nos galhos, oferecendo uma estimativa precisa de quanto tempo, após o corte das árvores, elas permanecem saudáveis para o transporte. 
+                Com isso, é possível evitar possíveis perdas de mercadorias. A solução foi personalizada para um cliente específico, garantindo que suas necessidades fossem atendidas com precisão.
+            </p>
+                <div class="spacer"></div>
+        </div>
+
+        <div class="row">
+            <!-- Image Column 2 -->
+            <div class="col-lg-4">
+                <div class="mb-4 mb-sm-0">
+                    <div class="image-container">
+                        <h6 class="font-weight-medium image-title">IDE Arduino Cloud</h6>
+                        <a href="{{ url_for('static', filename='imagens/Img2_Projeto3.png') }}" data-lightbox="image-set" data-title="Dashboard do projeto">
+                            <img class="rounded img-fluid" src="{{ url_for('static', filename='imagens/Img2_Projeto3.png') }}" alt="Dashboard do projeto" />
+                        </a>
+                        <div class="spacer1"></div>
+                        <p class="project-description">Neste projeto, a IDE Arduino Cloud foi utilizada para desenvolver a lógica e a programação do sistema.</p>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Column 3 -->
+            <div class="col-lg-4">
+                <div class="mb-4 mb-sm-0">
+                    <div class="image-container">
+                        <h6 class="font-weight-medium image-title">Gráfico de Pressão e Altitude</h6>
+                        <a href="{{ url_for('static', filename='imagens/Img3_Projeto3.png') }}" data-lightbox="image-set" data-title="Nova Imagem 1">
+                            <img class="rounded img-fluid" src="{{ url_for('static', filename='imagens/Img3_Projeto3.png') }}" alt="Nova Imagem 1" />
+                        </a>
+                        <div class="spacer1"></div>
+                        <p class="project-description">O botão inicia o monitoramento, enquanto os gráficos exibem a pressão e a altitude.</p>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Column 4 -->
+            <div class="col-lg-4">
+                <div class="mb-4 mb-sm-0">
+                    <div class="image-container">
+                        <h6 class="font-weight-medium image-title">Gráfico de Temperatura </h6>
+                        <a href="{{ url_for('static', filename='imagens/Img4_Projeto3.png') }}" data-lightbox="image-set" data-title="Nova Imagem 2">
+                            <img class="rounded img-fluid" src="{{ url_for('static', filename='imagens/Img4_Projeto3.png') }}" alt="Nova Imagem 2" />
+                        </a>
+                        <div class="spacer1"></div>
+                        <p class="project-description">Gráficos para a temperatura ambiente e para a média da pressão em relação à altitude.</p>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Column 5 -->
+            <div class="col-lg-4">
+                <div class="mb-4 mb-sm-0">
+                    <div class="image-container">
+                        <h6 class="font-weight-medium image-title">Dashboard para Celular</h6>
+                        <a href="{{ url_for('static', filename='imagens/Img5_Projeto3.png') }}" data-lightbox="image-set" data-title="Nova Imagem 3">
+                            <img class="rounded img-fluid" src="{{ url_for('static', filename='imagens/Img5_Projeto3.png') }}" alt="Nova Imagem 3" />
+                        </a>
+                        <div class="spacer1"></div>
+                        <p class="project-description">O botão inicia o monitoramento, enquanto o gráfico exibe a pressão.</p>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Column 6 -->
+            <div class="col-lg-4">
+                <div class="mb-4 mb-sm-0">
+                    <div class="image-container">
+                        <h6 class="font-weight-medium image-title">Dashboard para Celular</h6>
+                        <a href="{{ url_for('static', filename='imagens/Img6_Projeto3.png') }}" data-lightbox="image-set" data-title="Nova Imagem 4">
+                            <img class="rounded img-fluid" src="{{ url_for('static', filename='imagens/Img6_Projeto3.png') }}" alt="Nova Imagem 4" />
+                        </a>
+                        <div class="spacer1"></div>
+                        <p class="project-description">Gráficos para o monitoramento da altitude e temperatura.</p>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Column 7 -->
+            <div class="col-lg-4">
+                <div class="mb-4 mb-sm-0">
+                    <div class="image-container">
+                        <h6 class="font-weight-medium image-title">Dashboard para Celular</h6>
+                        <a href="{{ url_for('static', filename='imagens/Img7_Projeto3.png') }}" data-lightbox="image-set" data-title="Nova Imagem 5">
+                            <img class="rounded img-fluid" src="{{ url_for('static', filename='imagens/Img7_Projeto3.png') }}" alt="Nova Imagem 5" />
+                        </a>
+                        <div class="spacer1"></div>
+                        <p class="project-description">Gráfico que exibe a média da presão em relação à altitude.</p>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

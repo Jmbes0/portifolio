@@ -1,0 +1,94 @@
+.skills-section {
+    padding: 50px 0;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.skill {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 45%;
+}
+
+.skill h3 {
+    margin-top: 15px;
+}
+
+.skill i {
+    font-size: 2em;
+    color: #007bff;
+}
+
+.progress {
+    background-color: #4a4a52;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-dark {
+    color: #343a40;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-dark {
+    background-color: #343a40;
+}
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.min-height-100vh {
+    min-height: 100vh;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.experiencia {
+    padding: 50px 0;
+}
+
+.certificacoes {
+    padding: 50px 0;
+}
+
+.experiencia-section, .certificacoes-section {
+    padding: 50px 0;
+    background-color: #000; /* Fundo preto para manter a consistência */
+    color: #fff; /* Texto branco */
+    font-size: 1.3em; /* Aumentar o tamanho da fonte */
+}
+
+.experiencia-section h2, .certificacoes-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em; /* Aumentar o tamanho da fonte dos títulos */
+}
+
+.experiencia-section p, .certificacoes-section ul {
+    margin-bottom: 10px;
+}

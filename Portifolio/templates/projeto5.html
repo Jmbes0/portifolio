@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+{% block head %}
+    <!-- Adiciona os links do Lightbox no bloco head -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+{% endblock %}
+{% block body %}
+<div class="py-5 service-14">
+    <div class="container">
+        <!-- Texto Descritivo do Projeto -->
+        <div class="mb-4">
+            <p class="project-overview">
+                Desenvolvi uma solução de web scraping para o site do TJSP, destinada a um cliente advogado que precisava automatizar a tarefa repetitiva de baixar processos.
+                O software opera de maneira intuitiva: o usuário insere o nome do foro (cidade) e o CNPJ (banco) para a pesquisa, e o sistema realiza o download de todos os processos relevantes conforme solicitado.
+                A execução é feita em segundo plano, permitindo que o computador seja utilizado para outras tarefas simultaneamente. 
+                Após a conclusão do processo, o software fecha automaticamente e armazena todos os links baixados, prevenindo a duplicação de downloads em pesquisas futuras.
+            </p>
+            <div class="spacer"></div>
+        </div>
+
+        <div class="row">
+            <!-- Image Column 1 -->
+            <div class="col-lg-4">
+                <div class="mb-4 mb-sm-0">
+                    <div class="image-container">
+                        <h6 class="font-weight-medium image-title">Ide de desenvolvimento</h6>
+                        <a href="{{ url_for('static', filename='imagens/Img2_Projeto5.png') }}" data-lightbox="image-set" data-title="Ide de desenvolvimento">
+                            <img class="rounded img-fluid" src="{{ url_for('static', filename='imagens/Img2_Projeto5.png') }}" alt="Ide de desenvolvimento" />
+                        </a>
+                        <div class="spacer1"></div>
+                        <p class="project-description">O desenvolvimento foi realizado utilizando o Visual Studio Code.</p>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Column 2 -->
+            <div class="col-lg-4">
+                <div class="mb-4 mb-sm-0">
+                    <div class="image-container">
+                        <h6 class="font-weight-medium image-title">Janela de Dados</h6>
+                        <a href="{{ url_for('static', filename='imagens/Img3_Projeto5.png') }}" data-lightbox="image-set" data-title="Dashboard do projeto">
+                            <img class="rounded img-fluid" src="{{ url_for('static', filename='imagens/Img3_Projeto5.png') }}" alt="Dashboard do projeto" />
+                        </a>
+                        <div class="spacer1"></div>
+                        <p class="project-description">Janela para inserir os dados do foro e da cidade onde será realizada a busca.</p>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Column 3 -->
+            <div class="col-lg-4">
+                <div class="mb-4 mb-sm-0">
+                    <div class="image-container">
+                        <h6 class="font-weight-medium image-title">Pasta para de downloads</h6>
+                        <a href="{{ url_for('static', filename='imagens/Img4_Projeto5.png') }}" data-lightbox="image-set" data-title="Dashboard do projeto">
+                            <img class="rounded img-fluid" src="{{ url_for('static', filename='imagens/Img4_Projeto5.png') }}" alt="Dashboard do projeto" />
+                        </a>
+                        <div class="spacer1"></div>
+                        <p class="project-description">Esta é a pasta onde todos os PDFs baixados serão armazenados.</p>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- Image Column 4 -->
+            <div class="col-lg-4">
+                <div class="mb-4 mb-sm-0">
+                    <div class="image-container">
+                        <h6 class="font-weight-medium image-title">Links</h6>
+                        <a href="{{ url_for('static', filename='imagens/Img5_Projeto5.png') }}" data-lightbox="image-set" data-title="Nova Imagem">
+                            <img class="rounded img-fluid" src="{{ url_for('static', filename='imagens/Img5_Projeto5.png') }}" alt="Nova Imagem" />
+                        </a>
+                        <div class="spacer1"></div>
+                        <p class="project-description">Neste arquivo .txt são armazenados todos os links já baixados, evitando a duplicação de downloads.</p>
+                    </div>
+                    <div class="mt-3 text-center">
+                        <div class="spacer"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
